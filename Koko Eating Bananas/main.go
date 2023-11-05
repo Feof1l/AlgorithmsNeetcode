@@ -31,7 +31,7 @@ func Max(piles []int) int {
 func minEatingSpeed(piles []int, h int) int {
 
 	left := 1
-	right := Max(piles)
+	right := 1000000000
 	res := right
 	for left <= right {
 		k := left + (right-left)/2
