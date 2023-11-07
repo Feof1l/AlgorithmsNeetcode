@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 	strs := []string{"eat", "tea", "tan", "ate", "nat", "bat"}
 	fmt.Println(groupAnagrams(strs))
-	//ar()
 
 }
 func groupAnagrams(strs []string) [][]string { // 16 мс, память 7.8 МБ
