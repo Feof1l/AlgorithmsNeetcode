@@ -16,15 +16,20 @@ Output: 4
 #### Example 2:
 
 Input: nums = [4,5,6,7,0,1,2], target = 3
-Output: -1
 #### Example 3:
 
-Input: nums = [1], target = 0
-Output: -1
+Input: nums = [11,13,15,17]
+Output: 11
+Explanation: The original array was [11,13,15,17] and it was rotated 4 times. 
+
 ####  Constraints:
 
-1 <= nums.length <= 5000
--104 <= nums[i] <= 104
-All values of nums are unique.
-nums is an ascending array that is possibly rotated.
--104 <= target <= 104
+n == nums.length
+1 <= n <= 5000
+-5000 <= nums[i] <= 5000
+All the integers of nums are unique.
+nums is sorted and rotated between 1 and n times.n == nums.length
+1 <= n <= 5000
+-5000 <= nums[i] <= 5000
+All the integers of nums are unique.
+nums is sorted and rotated between 1 and n times.
